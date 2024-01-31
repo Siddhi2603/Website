@@ -1,0 +1,304 @@
+.navbar {
+  width: 100%;
+}
+
+.nav-container {
+  z-index: 1000;
+  display: flex;
+  padding: 7px 100px 5px 100px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.nav-logo {
+  padding: 10px;
+  align-items: center;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.nav-logo img {
+  width: 140px;
+  object-fit: contain;
+  height: 70px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin-right: 2rem;
+}
+.nav-links {
+  color: rgb(84, 84, 84);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+  border-bottom: 3px solid transparent;
+}
+.nav-links:hover {
+  color: #b63339;
+  border-bottom: 3px solid transparent;
+}
+.nav-button {
+  text-decoration: none;
+  background-color: #b63339 !important;
+  color: white !important;
+  padding: 8px 20px;
+  /* border-radius: 10px; */
+}
+
+.nav-item {
+  /* line-height: 40px; */
+  margin-right: 1rem;
+  font-weight: 600;
+  /* border-bottom: 2px solid #b63339; */
+}
+
+.nav-item .active {
+  color: #b63339;
+  font-weight: 600;
+}
+
+home
+.home-container {
+  padding: 50px;
+  width: 100%;
+  margin: auto 0;
+}
+
+.banner-slider {
+  margin: 0px;
+  width: 100%;
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.banner-slider .banner-left img {
+  width: 80%;
+  height: auto;
+}
+
+.banner-slider .banner-right .right-content {
+  padding: 0 60px !important;
+  margin: auto 0 !important;
+}
+
+.banner-slider .banner-right .right-content {
+  display: flex;
+  flex-direction: column;
+}
+.banner-slider .banner-right .right-content h1 {
+  font-size: 3vw !important;
+  font-weight: 600 !important;
+  text-align: left;
+}
+.banner-slider .banner-right .right-content span {
+  color: #b63339 !important;
+}
+.container {
+  padding-top: 100px;
+  background-color: #e3e9ff;
+}
+
+.home-container {
+  margin: auto 0;
+  padding: 50px;
+  width: 100%;
+}
+
+.banner-slider {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 70vh;
+  margin: 0;
+  width: 100%;
+}
+
+
+.center-container {
+  text-align: center;
+  max-width: 600px; 
+  margin: 0 auto; 
+  font-size:34px;
+  font-weight: 600;
+}
+
+.cont{
+  color: #726f6f;
+  font-size: 16px;
+  margin: 15px auto;
+  width: 80%;
+}
+
+
+  .w-100 {
+    width: 30%!important;
+}
+
+.sec3 .sec3-main .imgs {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: -85px;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+.swiper{
+  height: 100%;
+}
+
+.slider-container{
+  width: ;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/Footer*/
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: center;
+  background-color: #e3e9ff;
+  padding: 30px 60px;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.content-container {
+ 
+  display: grid;
+    grid-template-columns: 15% 15% 15% 15% 40%;
+}
+
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.first-part,
+.second-part,
+.third-part,
+.fourth-part,
+.fifth-part {
+  flex: 1;
+  margin-right: 20px; /* Adjust as needed */
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.subscribe {
+  display: flex;
+  align-items: center;
+}
+
+form {
+  display: flex;
+}
+
+input {
+  padding: 8px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+}
+
+.footer-btn {
+  background-color: #323864;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.emailerr1 {
+  color: red;
+}
+
+.socials {
+  display: flex;
+}
+
+.socials a {
+  margin-right: 10px;
+}
+
+.copyright,
+.bottom-line {
+  flex-basis: 100%;
+}
+
+.stpbtn {
+  background-color: #323864;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+/* Additional styling for FontAwesome icons */
+svg {
+  width: 20px;
+  height: 20px;
+}
